@@ -1,0 +1,121 @@
+product_id,name,category,price,stock_quantity,is_active
+1,Electronics Product 1,Electronics,432.7,390,True
+2,Home & Kitchen Product 2,Home & Kitchen,557.97,357,True
+3,Home & Kitchen Product 3,Home & Kitchen,900.22,311,False
+4,Home & Kitchen Product 4,Home & Kitchen,867.05,319,True
+5,Sports Product 5,Sports,1330.33,486,True
+6,Clothing Product 6,Clothing,91.29,54,True
+7,Home & Kitchen Product 7,Home & Kitchen,234.43,82,True
+8,Home & Kitchen Product 8,Home & Kitchen,197.41,198,True
+9,Sports Product 9,Sports,411.54,93,True
+10,Electronics Product 10,Electronics,871.01,95,True
+11,Clothing Product 11,Clothing,447.76,455,False
+12,Sports Product 12,Sports,159.05,438,True
+13,Toys Product 13,Toys,1399.52,347,False
+14,Sports Product 14,Sports,688.84,331,True
+15,Books Product 15,Books,498.62,340,True
+16,Clothing Product 16,Clothing,193.88,41,True
+17,Electronics Product 17,Electronics,1315.2,137,True
+18,Clothing Product 18,Clothing,1009.46,36,True
+19,Sports Product 19,Sports,995.67,152,True
+20,Toys Product 20,Toys,1433.07,366,True
+21,Home & Kitchen Product 21,Home & Kitchen,1450.0,308,True
+22,Books Product 22,Books,195.1,44,True
+23,Toys Product 23,Toys,235.39,413,True
+24,Toys Product 24,Toys,805.11,226,True
+25,Clothing Product 25,Clothing,8.77,462,True
+26,Electronics Product 26,Electronics,193.42,8,True
+27,Books Product 27,Books,182.22,272,True
+28,Toys Product 28,Toys,687.07,174,True
+29,Home & Kitchen Product 29,Home & Kitchen,135.28,17,False
+30,Clothing Product 30,Clothing,1271.95,344,True
+31,Toys Product 31,Toys,1403.13,206,True
+32,Sports Product 32,Sports,616.01,409,True
+33,Books Product 33,Books,82.5,275,True
+34,Clothing Product 34,Clothing,1060.79,494,False
+35,Clothing Product 35,Clothing,1438.44,113,True
+36,Clothing Product 36,Clothing,1470.29,421,True
+37,Clothing Product 37,Clothing,95.74,256,False
+38,Electronics Product 38,Electronics,40.5,440,True
+39,Sports Product 39,Sports,1332.52,257,True
+40,Electronics Product 40,Electronics,870.51,134,True
+41,Home & Kitchen Product 41,Home & Kitchen,1147.51,79,True
+42,Electronics Product 42,Electronics,1050.38,63,True
+43,Home & Kitchen Product 43,Home & Kitchen,305.52,217,True
+44,Clothing Product 44,Clothing,567.32,168,True
+45,Sports Product 45,Sports,205.12,294,True
+46,Clothing Product 46,Clothing,303.54,22,False
+47,Home & Kitchen Product 47,Home & Kitchen,1050.52,139,True
+48,Electronics Product 48,Electronics,725.21,173,True
+49,Clothing Product 49,Clothing,19.94,106,True
+50,Toys Product 50,Toys,229.74,291,True
+51,Books Product 51,Books,1085.4,500,True
+52,Toys Product 52,Toys,825.02,432,True
+53,Home & Kitchen Product 53,Home & Kitchen,1087.08,265,True
+54,Electronics Product 54,Electronics,324.48,476,True
+55,Toys Product 55,Toys,1230.27,310,True
+56,Toys Product 56,Toys,166.71,451,True
+57,Electronics Product 57,Electronics,1357.07,457,True
+58,Clothing Product 58,Clothing,1477.82,312,True
+59,Sports Product 59,Sports,95.17,86,True
+60,Home & Kitchen Product 60,Home & Kitchen,631.64,32,True
+61,Home & Kitchen Product 61,Home & Kitchen,1042.54,255,True
+62,Books Product 62,Books,540.46,186,True
+63,Home & Kitchen Product 63,Home & Kitchen,1048.89,229,True
+64,Clothing Product 64,Clothing,358.76,237,True
+65,Books Product 65,Books,1492.29,122,True
+66,Books Product 66,Books,793.09,24,True
+67,Books Product 67,Books,1329.45,403,True
+68,Clothing Product 68,Clothing,271.96,480,True
+69,Sports Product 69,Sports,1075.98,464,True
+70,Home & Kitchen Product 70,Home & Kitchen,585.72,271,True
+71,Books Product 71,Books,1250.39,54,True
+72,Sports Product 72,Sports,547.14,52,True
+73,Books Product 73,Books,754.11,130,False
+74,Sports Product 74,Sports,1041.27,201,False
+75,Sports Product 75,Sports,661.72,235,True
+76,Sports Product 76,Sports,974.19,54,False
+77,Toys Product 77,Toys,732.55,418,False
+78,Electronics Product 78,Electronics,1002.0,105,True
+79,Electronics Product 79,Electronics,1022.82,278,True
+80,Clothing Product 80,Clothing,1425.9,183,False
+81,Books Product 81,Books,499.91,21,False
+82,Sports Product 82,Sports,1253.39,94,False
+83,Books Product 83,Books,311.53,437,True
+84,Home & Kitchen Product 84,Home & Kitchen,93.25,324,True
+85,Clothing Product 85,Clothing,1341.95,475,True
+86,Clothing Product 86,Clothing,370.66,396,True
+87,Electronics Product 87,Electronics,153.67,13,False
+88,Sports Product 88,Sports,1004.07,413,True
+89,Toys Product 89,Toys,340.62,142,True
+90,Clothing Product 90,Clothing,1187.95,320,True
+91,Home & Kitchen Product 91,Home & Kitchen,1200.6,210,True
+92,Toys Product 92,Toys,1275.36,339,True
+93,Books Product 93,Books,888.02,104,True
+94,Toys Product 94,Toys,1250.05,248,True
+95,Sports Product 95,Sports,1222.63,79,True
+96,Sports Product 96,Sports,271.92,444,True
+97,Home & Kitchen Product 97,Home & Kitchen,120.78,53,True
+98,Toys Product 98,Toys,1234.66,495,True
+99,Sports Product 99,Sports,1221.17,201,True
+100,Electronics Product 100,Electronics,366.5,187,True
+101,Electronics Product 101,Electronics,198.37,467,True
+102,Electronics Product 102,Electronics,985.21,445,True
+103,Toys Product 103,Toys,100.87,376,True
+104,Sports Product 104,Sports,835.22,220,True
+105,Electronics Product 105,Electronics,539.1,453,True
+106,Books Product 106,Books,428.01,217,True
+107,Home & Kitchen Product 107,Home & Kitchen,1086.23,45,False
+108,Electronics Product 108,Electronics,93.05,218,True
+109,Sports Product 109,Sports,451.2,182,True
+110,Electronics Product 110,Electronics,191.8,329,True
+111,Books Product 111,Books,1133.02,41,True
+112,Toys Product 112,Toys,328.53,63,True
+113,Books Product 113,Books,857.03,144,True
+114,Home & Kitchen Product 114,Home & Kitchen,539.18,491,True
+115,Electronics Product 115,Electronics,669.69,221,True
+116,Clothing Product 116,Clothing,1008.3,369,True
+117,Home & Kitchen Product 117,Home & Kitchen,940.66,52,True
+118,Books Product 118,Books,436.68,407,True
+119,Sports Product 119,Sports,769.15,224,True
+120,Home & Kitchen Product 120,Home & Kitchen,1099.94,397,True

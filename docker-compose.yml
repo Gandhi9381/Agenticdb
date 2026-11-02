@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: agenticdb-postgres
+    environment:
+      POSTGRES_USER: agenticdb
+      POSTGRES_PASSWORD: agenticdb_secret_password
+      POSTGRES_DB: agenticdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agenticdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: agenticdb-backend
+    environment:
+      - DATABASE_URL=postgresql://agenticdb:agenticdb_secret_password@db:5432/agenticdb
+      - LLM_PROVIDER=google
+      - LLM_MODEL=gemini-2.0-flash
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - MONITOR_INTERVAL_SECONDS=30
+      - SLOW_QUERY_THRESHOLD_MS=500
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: agenticdb-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000/api
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
